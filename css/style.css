@@ -232,7 +232,8 @@ body {
 
 /*project*/
 .project {
-    position: relative;
+    float: left;
+    margin: 5px;
     width: 300px; /* Adjust to your image size */
     height: 300px;
     overflow: hidden;
@@ -242,7 +243,7 @@ body {
   .project .login-image {
     width: 300px;
     height: 300px;
-    object-fit: cover; /* Ensures image covers container */
+    object-fit: contain; /* resized to fit within the given dimension */
     transition: transform 0.3s ease;
   }
   
